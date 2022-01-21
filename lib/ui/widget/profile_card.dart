@@ -27,16 +27,16 @@ class ProfileCard extends StatelessWidget {
                 Text(
                   "Aria Dwitolio",
                   style: GoogleFonts.inter(
-                    color: Palette.surface,
-                    fontSize: 15,
+                    color: Palette.background,
+                    fontSize: 20,
                   ),
                 ),
                 SizedBox(height: 10),
                 Text(
                   "Ketua RW",
                   style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 13,
+                    color: Palette.background,
+                    fontSize: 16,
                   ),
                 ),
               ],
@@ -45,7 +45,7 @@ class ProfileCard extends StatelessWidget {
           IconButton(
             onPressed: () {},
             icon: Icon(Icons.settings),
-            color: Colors.white,
+            color: Palette.onPrimary,
           )
         ],
       ),

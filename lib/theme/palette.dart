@@ -6,11 +6,11 @@ class Palette {
   static const secondary = Color(0xFFEF9D0F);
   static const secondaryVariant = Color(0xFFEB7300);
   static const background = Color(0XFFF6F6F6);
-  static const surface = Color(0xFFFFFFF);
+  static const surface = Color(0x0fffffff);
   static const alert = Color(0xFFDC3545);
-  static const onPrimary = Color(0XFFFFFFF);
+  static const onPrimary = Color(0x0fffffff);
   static const onSecondary = Color(0xFF1F1F1F);
   static const onBackground = Color(0XFF1F1F1F);
   static const onSurface = Color(0XFF1F1F1F);
-  static const onAlert = Color(0XFFFFFFF);
+  static const onAlert = Color(0x0fffffff);
 }
