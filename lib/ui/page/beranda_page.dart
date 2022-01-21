@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:kependudukan/ui/widget/address_card.dart';
+import 'package:kependudukan/ui/widget/menu.dart';
 import 'package:kependudukan/ui/widget/profile_card.dart';
 
 class BerandaPage extends StatelessWidget {
@@ -10,14 +12,9 @@ class BerandaPage extends StatelessWidget {
       body: SafeArea(
         child: ListView(
           children: [
-            // TODO Buat Tampilan Untuk Profile
             ProfileCard(),
-
-            // TODO Buat tampilan untuk Address
-            // AddressCard(),
-
-            // TODO Buat tampilan untuk menu utama
-            // Menu(),
+            AddressCard(),
+            Menu(),
           ],
         ),
       ),

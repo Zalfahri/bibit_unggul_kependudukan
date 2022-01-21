@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:kependudukan/theme/palette.dart';
 
 class ProfileCard extends StatelessWidget {
   const ProfileCard({Key? key}) : super(key: key);
@@ -6,8 +8,8 @@ class ProfileCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(20),
-      color: Colors.purple,
+      padding: EdgeInsets.all(25),
+      color: Palette.primary,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -24,8 +26,8 @@ class ProfileCard extends StatelessWidget {
               children: [
                 Text(
                   "Aria Dwitolio",
-                  style: TextStyle(
-                    color: Colors.white,
+                  style: GoogleFonts.inter(
+                    color: Palette.surface,
                     fontSize: 15,
                   ),
                 ),
