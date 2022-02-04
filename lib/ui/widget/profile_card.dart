@@ -9,7 +9,7 @@ class ProfileCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.all(25),
-      color: Palette.primary,
+      color: Color(0xFF77529C),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
