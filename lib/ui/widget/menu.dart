@@ -19,25 +19,42 @@ class Menu extends StatelessWidget {
             width: 15,
             height: 15,
           ),
-          Container(
-            child: Card(
-              color: Colors.white,
-              child: Row(
-                children: [
-                  Padding(
-                    padding: EdgeInsets.all(10),
-                  ),
-                  Icon(
-                    Icons.medical_services,
-                    size: 50,
-                    color: Colors.blueAccent,
-                  ),
-                  SizedBox(
-                    width: 20,
-                  ),
-                  Text("Kesehatan"),
-                ],
-              ),
+          Card(
+            color: Colors.white,
+            child: Row(
+              children: [
+                Padding(
+                  padding: EdgeInsets.all(10),
+                ),
+                Icon(
+                  Icons.medical_services,
+                  size: 50,
+                  color: Colors.blueAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                Text("Kesehatan"),
+              ],
+            ),
+          ),
+          Card(
+            color: Colors.white,
+            child: Row(
+              children: [
+                Padding(
+                  padding: EdgeInsets.all(10),
+                ),
+                Icon(
+                  Icons.medical_services,
+                  size: 50,
+                  color: Colors.blueAccent,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                Text("Kesejahteraan"),
+              ],
             ),
           )
         ],

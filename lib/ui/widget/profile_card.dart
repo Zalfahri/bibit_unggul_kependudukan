@@ -27,7 +27,7 @@ class ProfileCard extends StatelessWidget {
                 Text(
                   "Aria Dwitolio",
                   style: GoogleFonts.inter(
-                    color: Palette.surface,
+                    color: Palette.background,
                     fontSize: 15,
                   ),
                 ),
