@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:kependudukan/theme/palette.dart';
 import 'package:kependudukan/ui/widget/menu_card.dart';
 
 class Menu extends StatelessWidget {
@@ -33,7 +34,7 @@ class Menu extends StatelessWidget {
           MenuCard(
               icon: Icons.accessibility_new,
               title: "Kesejahteraan",
-              color: Colors.green)
+              color: Palette.onPrimary)
         ],
       ),
     );

@@ -28,11 +28,13 @@ class _NavigationPageState extends State<NavigationPage> {
   // sesuai dengan bottom navigation yang diklik
 
   void _onItemTapped(int index) {
-    setState(() {
-      print("index: $index");
-      _selectedIndex = index;
-      print("_selectedIndex: $_selectedIndex");
-    });
+    setState(
+      () {
+        print("index: $index");
+        _selectedIndex = index;
+        print("_selectedIndex: $_selectedIndex");
+      },
+    );
   }
 
   // void _onItemTapped(int index) {}
@@ -45,21 +47,15 @@ class _NavigationPageState extends State<NavigationPage> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             // activeIcon: Icon(Icons.list_rounded),
-            icon: Icon(
-              Icons.home,
-            ),
+            icon: Icon(Icons.home),
             label: "Beranda",
           ),
           BottomNavigationBarItem(
-            icon: Icon(
-              Icons.list_rounded,
-            ),
+            icon: Icon(Icons.list_rounded),
             label: "Penduduk",
           ),
           BottomNavigationBarItem(
-            icon: Icon(
-              Icons.person,
-            ),
+            icon: Icon(Icons.person),
             label: "Profil",
           ),
         ],
